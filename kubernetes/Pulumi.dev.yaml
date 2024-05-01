@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  natedolz-k8:desiredClusterSize: "3"
+  natedolz-k8:eksNodeInstanceType: t3.medium
+  natedolz-k8:maxClusterSize: "6"
+  natedolz-k8:minClusterSize: "3"
+  natedolz-k8:vpcNetworkCidr: 10.0.0.0/16

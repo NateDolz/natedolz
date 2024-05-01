@@ -1,0 +1,7 @@
+name: natedolz-k8
+runtime: go
+description: kubernetes cluster for personal site
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-aws-go
